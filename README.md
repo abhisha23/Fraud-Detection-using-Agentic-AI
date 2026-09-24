@@ -7,7 +7,7 @@ An AI-powered fraud detection system that combines a traditional machine learnin
 
 1. A claims adjuster (or automated intake system) enters structured claim details — amount, policy tenure, prior claims history, filing delay, claim type, provider, and member age.
 2. A **Random Forest classifier** scores the claim's fraud risk based on patterns learned from historical claims data.
-3.** Claude (Anthropic) **acts as an agentic explanation layer — it takes the model's risk score and the specific triggered risk factors, reasons over them, and produces a clear, plain-language justification a human adjuster can actually act on, along with a recommended next step.
+3.Claude (Anthropic)acts as an agentic explanation layer — it takes the model's risk score and the specific triggered risk factors, reasons over them, and produces a clear, plain-language justification a human adjuster can actually act on, along with a recommended next step.
 
 The goal is a system where the ML model handles pattern detection at scale, and the LLM agent handles the human-facing reasoning and communication — each doing what it's best at.
 
